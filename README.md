@@ -25,23 +25,6 @@
 
 </ul>
 
-<h2>Sample Run</h2>
-<p>
-    <b>Input:</b><br>
-    Enter number of cars: 5<br>
-    Enter number of tracks: 3<br>
-    Enter train order: 1 5 4 2 3<br>
-    <br>
-    <b>Output:</b><br>
-    Move car 1 from input track to output track<br>
-    Move car 5 from input track to holding track 1<br>
-    Move car 4 from input track to holding track 2<br>
-    Move car 2 from input track to output track<br>
-    Move car 3 from input track to output track<br>
-    Move car 4 from holding track 2 to output track<br>
-    Move car 5 from holding track 1 to output track<br>
-</p>
-
 <h2>Files and Roles</h2>
 <ul>
     <li><b><code>TrainDriver.cpp</code></b>: Main program file that interacts with the user, reads input, and initiates the TrainProblem solution.</li>
@@ -59,3 +42,30 @@
     </li>
     <li>Follow the prompts to enter the number of cars, number of tracks, and the train order.</li>
 </ol>
+
+
+<h2>Sample Run</h2>
+<p>
+<b>Input:</b><br>
+Enter number of cars: 5<br>
+Enter number of tracks: 3<br>
+Enter train order: 1 5 4 2 3<br>
+<br>
+<b>Output:</b><br>
+Move car 1 from input track to output track<br>
+Move car 5 from input track to holding track 1<br>
+Move car 4 from input track to holding track 2<br>
+Move car 2 from input track to output track<br>
+Move car 3 from input track to output track<br>
+Move car 4 from holding track 2 to output track<br>
+Move car 5 from holding track 1 to output track<br>
+
+<br/>
+<p align="center">
+<b>Prompted to enter # of cars, # of tracks, and car order. Outputs computed moves: </b>
+<br/>
+<br/>
+<img src="https://imgur.com/gBy1foS.png" height="80%" width="80%" />
+<br />
+<br />
+</p>
